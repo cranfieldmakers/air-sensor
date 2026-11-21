@@ -11,6 +11,8 @@ An Arduino sketch that reads CO₂, temperature, and relative humidity from a Se
 
 The display and sensor use separate ESP32 I²C controllers. The sketch assigns the OLED to GPIO 1/2 and the SCD41 to GPIO 3/4. On the XIAO these are header pins D0–D3; they are not the board's default I²C pins.
 
+The wiring diagram shows the XIAO from the component side with all 14 edge pins: D0–D6 on the left, and 5V, GND, 3V3, and D10–D7 on the right.
+
 ## Wiring
 
 ![Wiring diagram for the XIAO ESP32-S3, OLED, and SCD41](wiring.svg)
